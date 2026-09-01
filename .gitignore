@@ -1,0 +1,34 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+
+# Local secrets (keep shareable templates)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Common dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local IDE and Codex workspace metadata
+.idea/
+*.iml
+.codex/
+.agents/
